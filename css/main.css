@@ -19,7 +19,7 @@ nav{
 }
 
 /*Nav Logo*/
-nav > a{
+nav > folio{
 	font-family: 'open sans', sans-serif;
 	color: #ffffff;
 	font-size:26px;  /* Approx due to font sub*/
@@ -27,7 +27,7 @@ nav > a{
 	text-align: left;
 	text-decoration: none;
 	position: absolute;
-	left: 25px;
+	margin-left: 30px;
 	top: 10px;
 }
 nav > a > span {
@@ -90,7 +90,7 @@ header a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 14px;
-	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 	        transition: all 0.3s ease-in-out;
 }
 header a:hover {
@@ -115,7 +115,7 @@ header a:hover {
 .about > p {
 	color:  #7e8287;
 	line-height: 41px;
-	width:70%;
+	width:80%;
 	margin: 0 auto;
 }
 .about > p > span {
@@ -124,14 +124,13 @@ header a:hover {
 }
 .aboutBoxes {
 	color: #7e8287;
-    margin: 0 auto;
-    width: 80%;
+    margin: auto;
+    width: 100%;
 }
 .aboutBox {
 	float: left;
-    width: 16%;
+    width: 100%;
     padding: 0 4%;
-    border-right: 1px solid black;
     margin: 3% 0;
 }
 .aboutBox i {
@@ -149,11 +148,12 @@ header a:hover {
 	display: inline-block;
 }
 .serviceWrapper {
-	width: 40%;
+	width: 80%;
+  text-align: center;
 }
 .service h2 {
 	color:  #02918c;
-	font-size: 46px;
+	font-size: 56px;
 	font-weight: bold;
 	margin-bottom: 0;
 }
@@ -165,8 +165,8 @@ header a:hover {
 	line-height: 41px;
 }
 .serviceBox {
-	float: left;
-    width: 40%;
+	float: right;
+    width: 80%;
     color:  #7e8287;
 }
 .serviceBox.left {
